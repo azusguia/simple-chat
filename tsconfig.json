@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "esModuleInterop": true,
+        "outDir": "lib",
+        "sourceMap": true,
+        "strict": false,
+        "target": "es2017"
+    },
+    "compileOnSave": true,
+    "typeRoots": [
+        "./src/@types"
+    ],
+    "include": [
+        "server/src",
+        ".eslintrc.js",
+        "server/index.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
